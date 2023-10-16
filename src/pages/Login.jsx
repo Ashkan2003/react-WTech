@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useLogin } from "../features/authentication/useLogin";
-import MiniSpinner from "../ui/miniSpinner";
+import SpinnerMini from "../ui/SpinnerMini";
+
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -128,7 +129,7 @@ function Login() {
                 disabled={isLoading}
                 className="w-full rounded-md border border-transparent bg-indigo-600 px-4 py-3 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
               >
-                {!isLoading ? "Login" : <MiniSpinner />}
+                {!isLoading ? "Login" : <SpinnerMini />}
               </button>
             </div>
           </form>
