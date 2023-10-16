@@ -1,6 +1,7 @@
 # WTech
 A multipage website for buying and watching your favorite courses<br><br>
-# visit here on versel: https://react-wtech-ge6ccbshs-ashkan2003.vercel.app/
+# visit here on versel: 
+https://react-wtech-ge6ccbshs-ashkan2003.vercel.app/
 # app capability
 dynamic data flow<br>
 full responsive<br>
