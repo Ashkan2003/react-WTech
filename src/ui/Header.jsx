@@ -14,7 +14,6 @@ import {
 
 import Logo from "./Logo";
 import Button from "./Button";
-import { Link } from "react-router-dom";
 import NavItems from "./NavItems";
 import DialogElem from "./DialogElem";
 import SidebarBtn from "./SidebarBtn";
@@ -22,7 +21,7 @@ import ShopIcon from "./ShopIcon";
 import DarkModeToggler from "./DarkModeToggler";
 import SearchBar from "./SearchBar";
 import { useUser } from "../features/authentication/useUser";
-import UserIcon from "./userIcon";
+import UserIcon from "./UserIcon";
 
 const products = [
   {
