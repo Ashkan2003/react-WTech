@@ -1,6 +1,18 @@
 # WTech
 
-A multipage website for buying and watching your favorite courses
+A multipage website for buying and watching your favorite courses<br><br>
+
+# app capability
+dynamic data flow<br>
+full responsive<br>
+user signup and login capability <br>
+dynamic course-shop <br>
+postgresql for saving user-account and course inforamtion provided by supabase <br>
+darkmode<br>
+# some imgs from site
+![img-1](https://github.com/Ashkan2003/react-WTech/assets/125794999/1f20f282-be58-45bf-9f66-42904c484061)<hr>
+![img-2](https://github.com/Ashkan2003/react-WTech/assets/125794999/c47027d6-f04c-44ca-bb3c-e3164b7065c5)
+
 
 ## Technologies:
  for frontend : Html Css Js react-js tailwindCss<br />
