@@ -1,7 +1,6 @@
 # WTech
-
 A multipage website for buying and watching your favorite courses<br><br>
-
+# visit here on versel: https://react-wtech.vercel.app/
 # app capability
 dynamic data flow<br>
 full responsive<br>
