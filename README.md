@@ -2,6 +2,7 @@
 A multipage website for buying and watching your favorite courses<br><br>
 # visit here on versel: 
 https://react-wtech-git-master-ashkan2003.vercel.app/
+https://react-wtech-g39b6bmsz-ashkan2003.vercel.app/
 # app capability
 dynamic data flow<br>
 full responsive<br>
