@@ -15,11 +15,11 @@ function AllCourses() {
 
   const { isLoading, filteredCourses } = useFilteredCourses();
   const [inputQuery, setInputQuery] = useState("");
-
+  console.log(filteredCourses,"ssss")
   // our search mecanism work only with the course full name writed by the users
   const searchedCourses = filteredCourses?.filter(
     (course) => course.courseName.toLowerCase() === inputQuery.toLowerCase(),
-  ); //we loop thriog the courses-arrray and equel the courses-name with the inputQuery and return a array
+  ); //we loop throug the courses-array and equel the courses-name with the inputQuery and return a array
 
   const showToUsersCourses =
     inputQuery === "" ? filteredCourses : searchedCourses;

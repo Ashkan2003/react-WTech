@@ -7,6 +7,7 @@ export function useProfile() {
 
   const { user } = useUser();// when the user sign up for the first time supabase create a new unic id for him(see in in the usermanagment in supabase) and then we send this id to the profile table by creating a new profile and then when the user logeed in inthe next time we get the user-profile(informations) by its unik id
   const userId = user?.id
+  
   const { isLoading: isLoadingProfile, data: userProfile } = useQuery({
     queryFn: () => getProfile(userId),
     queryKey: ["userProfile"],

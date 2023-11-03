@@ -21,15 +21,18 @@ function CourseDetails() {
   const { isLoading, course } = useCourse();
   const navigate = useNavigate(); // we use useNavigate to navigate bettven pages
 
-  if (isLoading || isLoadingProfile) return <Spinner />;
+  if (isLoading) return <Spinner />;
 
   const value = localStorage.getItem("coursesInCart"); // get the value by its key(coursesInCart)
   const coursesIdInCart = value ? JSON.parse(value) : []; // if the value exixst then parse it and save it but if value dont exixts save an empty array []
 
-  const userSupabaseCoursesId =
-    userProfile.userSupabaseCourses === null
-      ? []
-      : userProfile.userSupabaseCourses; // if the userProfile.userSupabaseCourses was null(it means that the user did not bought any courses yet) then set it to empty
+  let userSupabaseCoursesId = [];
+  if (!isLoadingProfile) { // if the isLoadingProfile was false render this
+    userSupabaseCoursesId =
+      userProfile.userSupabaseCourses === null
+        ? []
+        : userProfile.userSupabaseCourses; // if the userProfile.userSupabaseCourses was null(it means that the user did not bought any courses yet) then set it to empty
+  }
 
   const isCourseBought = userSupabaseCoursesId.includes(course.id); //we want to know if the user bought this course previosly so disable the buyCourse-btn// for example [1,3,5,11].includes(5) => true
 
