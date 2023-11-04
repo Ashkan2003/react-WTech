@@ -1,7 +1,7 @@
 # WTech
 A multipage website for buying and watching your favorite courses<br><br>
 # visit here on versel: 
-https://react-wtech-git-master-ashkan2003.vercel.app/
+https://react-wtech-git-master-ashkan2003.vercel.app/ <br>
 https://react-wtech-g39b6bmsz-ashkan2003.vercel.app/
 # app capability
 dynamic data flow<br>
@@ -19,7 +19,7 @@ darkmode<br>
  for frontend : Html Css Js react-js tailwindCss<br />
  for backend : i use Supabase 
 
-## installed libraries : 
+## installed libraries and packages : 
  react-router-dom v6(new) to routing this project.<br />
  react-icons.<br />
  contex-api for global-state-managment<br />
